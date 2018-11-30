@@ -1,6 +1,8 @@
-//Functions can be named
+//This is the syntax of a function:
+//function Name(parameter1, parameter2)
 
 //hate and love are the "parameters", or arguments, or the function. 
+//vegetables is the name of the function (this is a named function)
 //Whatever goes in them is passed down and used throughout the function.
 function vegetables(hate, love) { 
   console.log('I hate ' + hate)
@@ -43,7 +45,7 @@ function tired(knicknack, calculateOfficeFurniture) {
 const furniture = ['desk', 'chair', 'stepstool'];
 
 function getStepStool() {
-  return furniture[1];
+  return furniture[2];
 }
 
 tired('Hawaii hula hoop snowglobe', getStepStool());
@@ -59,8 +61,10 @@ tired('Jigsaw puzzle', (function() {
   return furniture[2];
 })());
 
-//Above is bit of a weird example - we had to actually invoke the function so the result could be passed to the
-//calculateOfficeFurniture parameter. A function that invokes itself is called an immediately invoked
+//Above is bit of a weird example. //A better use of anonymous functions is how they are used in D3.  
+
+//We had to actually invoke the function so the result could be passed to the
+//calculateOfficeFurniture parameter.  A function that invokes itself is called an immediately invoked
 //function expression. This brings us to our next section.
 
 //Immediately invoked function expressions and closures
