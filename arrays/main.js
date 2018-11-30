@@ -69,4 +69,4 @@ console.log(mappedArrayReturned); //[3,4,5]
 //1. OriginalNumbers.map() iterates through every number (d) in the array
 //2. For every number, a new number, d+2, is returned to the array.map() function.
 //3. Lastly, the array.map() function returns a new array, which is stored in mappedArrayReturned.
-//4. This new array is what is logged on line 55.
+//4. This new array is what is logged.
